@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pomodoro</title>
+        <link rel="stylesheet" href="pomodoro.css">
+        <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="start_request">
+            <button type="button" class="start_after_break">start again</button>
+        </div>
+        <div class="break_request">
+            <button type="button" class="break">take a break</button>
+        </div>
+        <div class="time"></div>
+        <div class="circle_container"></div>
+        <div class="container_menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="content">
+            <span class="out"><img src="close.png" width="20" height="20" id="image"></span>
+            <div class="content_menu">
+            <label for="set_min">set minutes</label>
+            <input name="set_min" type="number" id="set_min" min="1" max="10">
+            
+       
+            <label for="range">set pomodoros</label>
+            <input name="range" type="range"  id="pomo_number" min="2" max="12" step="1" value="2">
+        
+        
+        <label for="set_break">set break</label>
+        <input name="set_break" type="number" id="set_break" min="1" max="5">
+        
+        <div class="set_reset">
+            <button type="button" class="set_properties">set properties</button>
+        </div>
+        </div>
+    </div>
+
+    </body>
+    <script src="pomodoro.js"></script>
+</html>
