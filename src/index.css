@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif;
+}
+body{
+    background: hsla(43, 84%, 85%, 1);
+    background: linear-gradient(45deg, hsla(43, 84%, 85%, 1) 5%, hsla(325, 71%, 70%, 1) 50%, hsla(236, 67%, 55%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(43, 84%, 85%, 1) 5%, hsla(325, 71%, 70%, 1) 50%, hsla(236, 67%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(43, 84%, 85%, 1) 5%, hsla(325, 71%, 70%, 1) 50%, hsla(236, 67%, 55%, 1) 100%);
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+
+::-webkit-scrollbar-thumb {
+    background: dodgerblue; 
+    opacity:0.5;
+    border-radius: 10px;
+}

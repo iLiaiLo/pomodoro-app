@@ -1,0 +1,53 @@
+.container{
+    position:relative;
+    width:min(380px, 100%);
+}
+
+.dropButton{
+    padding: 20px;
+    font-size:22px;
+    background-color:#cc00cc;
+    color:#191b1d;
+    box-shadow: 0 0 5px inset #000000;
+    opacity:0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.dropButton:hover{
+    background-color: #1e90ff;
+    color:#ffffff;
+    cursor: pointer;
+}   
+
+.dropButton span{
+    font-weight:bold;
+}
+
+.drop-content{
+    margin:5px 0;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    width:250px;
+    height:400px;
+    box-shadow: 0 0 5px inset #000000;
+    gap:20px;
+    overflow-y:scroll;
+    background-color:#fcfa9fc7;
+}
+
+.minutes , .pomo{
+    font-size:20px;
+    padding: 10px;
+}
+.minutes:hover , .pomo:hover{
+    background-color: #1e90ff;
+    color:#ffffff;
+    cursor: pointer;
+}

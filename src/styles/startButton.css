@@ -1,0 +1,22 @@
+.start-btn , .finish-btn{
+    padding: 15px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.start-btn{
+    font-size: 50px;
+    border-radius: 50%;
+}
+.finish-btn{
+    font-size:30px;
+    border-radius: 20px;
+}
+
+.start-btn:hover , .finish-btn:hover{
+    box-shadow: 0 0 5px #1f2020 inset , 0 0 10px #800080 ;
+}   

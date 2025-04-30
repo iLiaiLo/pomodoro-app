@@ -1,0 +1,22 @@
+.buttonContainer{
+    width:300px;
+    align-self:center;
+}
+
+.buttonContainer button{
+    padding: 15px;
+    width:100%;
+    border-radius: 15px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-size:25px;
+    background-color: #1e90ff;
+    color:#ffffff;
+    box-shadow: 0 0 5px inset #000000;
+    opacity:0.8;
+}
+
+.buttonContainer button:hover{
+    background-color:#0a5daf;
+}
